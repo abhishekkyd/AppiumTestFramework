@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="BWI Automation" verbose="1">
+    <listeners>
+        <listener class-name="com.automation.mobile.utils.ScreenshotListener"/>
+    </listeners>
+    <test name="test">
+        <classes>
+            <class name="com.automation.mobile.tests.SelendroidTest"/>
+        </classes>
+    </test>
+</suite>
+
+
